@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
+        @include('inc.navbar')
+        <br><br>
         <div class="container">
             @include('inc.messages')
             @yield('content')
