@@ -51,4 +51,5 @@ class PhotosController extends Controller
       
 
     }
+
 }
